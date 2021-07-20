@@ -53,7 +53,7 @@ let countDownMinutes = () => {
 
 let countDownHours = () => {
     if(minutes.textContent==59){
-        hours.textContent == 0? startingHours = 23 : startingHours--
+        hours.textContent == 0? startingHours = 23 : startingHours--;
         startingHours <10 ? hours.textContent = `0${startingHours}` : hours.textContent = startingHours;
     }
 }
