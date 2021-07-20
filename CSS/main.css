@@ -21,12 +21,12 @@ body {
   height: 100vh;
   font-family: "red hat text";
   background-color: #1e1f29;
-  background-image: url(bg-stars.svg);
+  background-image: url(/bg-stars.svg);
   letter-spacing: 0.4em;
 }
 
 body::before {
-  background-image: url(pattern-hills.svg);
+  background-image: url(/pattern-hills.svg);
   position: absolute;
   height: 25vh;
   background-size: cover;
