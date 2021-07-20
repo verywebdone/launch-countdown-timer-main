@@ -26,7 +26,7 @@ body {
 }
 
 body::before {
-  background-image: url("./pattern-hills.svg");
+  background-image: url("../pattern-hills.svg");
   position: absolute;
   height: 25vh;
   background-size: cover;
