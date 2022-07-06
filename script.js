@@ -5,7 +5,7 @@ const seconds = document.getElementById("seconds");
 const numbers = document.querySelectorAll(".numbers")
 
 // find the total second from a specific date
-let cdDate = (new Date (2021, 7, 30).getTime())/1000;
+let cdDate = (new Date (2022, 12, 31).getTime())/1000;
 let today = (new Date().getTime())/1000;
 let distanceSeconds = cdDate - today;
 
